@@ -1,19 +1,21 @@
-📚 Matesoft Library 3.0
-Matesoft Library 3.0 is a professional C# Windows Forms Application designed to manage library operations such as book inventory, member registration, borrowing and returning of books — all handled via a smooth desktop interface.
+# 📚 Matesoft Library 3.0
 
-🖥️ Built With
-C# (.NET Framework) – Windows Forms (WinForms)
+**Matesoft Library 3.0** is a professional **C# Windows Forms Application** designed to manage library operations such as book inventory, member registration, borrowing and returning of books — all handled via a smooth desktop interface.
 
-MySQL – Database
+---
 
-HTML – Help files, external templates (minor)
+## 🖥️ Built With
 
-Database stored inside project folder (database/)
+- **C# (.NET Framework)** – Windows Forms (WinForms)
+- **MySQL** – Database
+- **HTML** – Help files, external templates (minor)
+- **Database** stored inside project folder (`database/`)
 
-📂 Project Structure
-python
-Copy
-Edit
+---
+
+## 📂 Project Structure
+
+```
 / (root)
 ├── bin/                  # Compiled binaries (Debug / Release)
 ├── database/             # Database backup (.sql) for import
@@ -24,92 +26,98 @@ Edit
 │   └── App.config        # Application configuration (Connection Strings)
 ├── obj/                  # Temporary build files
 ├── MatesoftLibrary.sln   # Visual Studio Solution File
-├── README.md             # Project overview (you are here!)
-📦 Installation Instructions
-Clone the repository:
+├── README.md             # You are here!
+```
 
-bash
-Copy
-Edit
-git clone https://github.com/PamudithaPerera/Matesoft-Library-3.0.git
-Setup Database:
+---
 
-Open your localhost server (e.g., XAMPP / WAMP / Laragon).
+## 📦 Installation Instructions
 
-Open phpMyAdmin.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/PamudithaPerera/Matesoft-Library-3.0.git
+   ```
 
-Create a new database named:
+2. **Setup Database:**
+   - Open your localhost server (e.g., XAMPP / WAMP / Laragon).
+   - Open **phpMyAdmin**.
+   - Create a new database named:
+     ```
+     dblibrary
+     ```
+   - Import the `.sql` file from the `/database/` folder into `dblibrary`.
 
-nginx
-Copy
-Edit
-dblibrary
-Import the .sql file from the /database/ folder into dblibrary.
+3. **Configure Database Connection:**
+   - Open the project in **Visual Studio**.
+   - Open `App.config`.
+   - Update the connection string if necessary:
+     ```xml
+     <connectionStrings>
+         <add name="LibraryDB" connectionString="server=localhost;user id=root;password=;database=dblibrary" providerName="MySql.Data.MySqlClient" />
+     </connectionStrings>
+     ```
 
-Configure Database Connection:
+4. **Run the Project:**
+   - Set `MatesoftLibrary` as the Startup Project.
+   - Build and Run (F5).
 
-Open the project in Visual Studio.
+5. **Login and Enjoy!**
 
-Open App.config.
+---
 
-Update the connection string if necessary:
+## 🛠️ Key Features
 
-xml
-Copy
-Edit
-<connectionStrings>
-    <add name="LibraryDB" connectionString="server=localhost;user id=root;password=;database=dblibrary" providerName="MySql.Data.MySqlClient" />
-</connectionStrings>
-Run the Project:
+- 📚 **Book Management:** Add, edit, delete, view book records
+- 👤 **Member Management:** Register, update, manage library members
+- 📖 **Borrow and Return Books:** Track lending activities
+- 🔒 **Admin Login:** Secure authentication for system access
+- 📈 **Reports:** View transaction histories and borrowing reports
+- 🖼️ **Modern UI:** Icons, Images, and easy navigation
+- ⚡ **Fast Performance:** Optimized Windows Forms application
 
-Set MatesoftLibrary as the Startup Project.
+---
 
-Build and Run (F5).
+## 🔐 Default Admin Credentials
 
-Login and Enjoy!
+| Username | Password |
+|:--------:|:--------:|
+| admin    | admin123 |
 
-🛠️ Key Features
-📚 Book Management: Add, edit, delete, view book records
+> (You should change the default password after first login for security.)
 
-👤 Member Management: Register, update, manage library members
+---
 
-📖 Borrow and Return Books: Track lending activities
+## ✨ Screenshots
 
-🔒 Admin Login: Secure authentication for system access
+| Login Screen | Dashboard | Manage Books | Borrowing System |
+|:------------:|:---------:|:------------:|:----------------:|
+| (Insert)     | (Insert)  | (Insert)     | (Insert)         |
 
-📈 Reports: View transaction histories and borrowing reports
+*(Optional: Upload your screenshots in GitHub and link them here!)*
 
-🖼️ Modern UI: Icons, Images, and easy navigation
+---
 
-⚡ Fast Performance: Optimized Windows Forms application
+## ⚙️ Requirements
 
-🔐 Default Admin Credentials
+- Windows 7/8/10/11
+- Visual Studio 2019 or later
+- .NET Framework 4.7.2 or higher
+- MySQL Server / MariaDB
 
-Username	Password
-admin	admin123
-(You should change the default password after first login for security.)
+---
 
-✨ Screenshots
+## 📄 License
 
-Login Screen	Dashboard	Manage Books	Borrowing System
-(Insert)	(Insert)	(Insert)	(Insert)
-(Optional: Upload your screenshots in GitHub and link them here!)
+This project is licensed under the **MIT License**.
 
-⚙️ Requirements
-Windows 7/8/10/11
+---
 
-Visual Studio 2019 or later
+## 📞 Contact
 
-.NET Framework 4.7.2 or higher
+- **Developer:** Pamuditha Perera
+- **GitHub:** [@PamudithaPerera](https://github.com/PamudithaPerera)
 
-MySQL Server / MariaDB
+---
 
-📄 License
-This project is licensed under the MIT License.
+# 🎉 Enjoy Managing Libraries with Matesoft Library 3.0!
 
-📞 Contact
-Developer: Pamuditha Perera
-
-GitHub: @PamudithaPerera
-
-🎉 Enjoy Managing Libraries with Matesoft Library 3.0!
