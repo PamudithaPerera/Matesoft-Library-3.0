@@ -81,19 +81,9 @@
 
 | Username | Password |
 |:--------:|:--------:|
-| admin    | admin123 |
+| librarian    | librarian |
 
 > (You should change the default password after first login for security.)
-
----
-
-## ✨ Screenshots
-
-| Login Screen | Dashboard | Manage Books | Borrowing System |
-|:------------:|:---------:|:------------:|:----------------:|
-| (Insert)     | (Insert)  | (Insert)     | (Insert)         |
-
-*(Optional: Upload your screenshots in GitHub and link them here!)*
 
 ---
 
