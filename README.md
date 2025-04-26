@@ -96,18 +96,8 @@
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## 📞 Contact
 
 - **Developer:** Pamuditha Perera
 - **GitHub:** [@PamudithaPerera](https://github.com/PamudithaPerera)
-
----
-
-# 🎉 Enjoy Managing Libraries with Matesoft Library 3.0!
 
